@@ -33,7 +33,7 @@ public class DataGenerator {
     }
 
     public static String randomCity() throws IOException {
-        List<String> cities = FileUtils.readLines(new File("C:\\Users\\Julia\\Study\\Patterns\\src\\test\\resources\\CitiesList.txt"), "utf-8");
+        List<String> cities = FileUtils.readLines(new File("src/test/resources/CitiesList.txt"), "utf-8");
         Random cn = new Random();
         int cityNumber = cn.nextInt(cities.size());
         String cityName = cities.get(cityNumber);
