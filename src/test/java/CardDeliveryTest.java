@@ -4,6 +4,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
 
+import javax.xml.crypto.Data;
 import java.io.IOException;
 import java.util.Locale;
 
@@ -14,13 +15,6 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class CardDeliveryTest {
 
-    private Faker faker;
-
-    @BeforeEach
-    void setUpAll() {
-        faker = new Faker(new Locale("ru"));
-    }
-
     @Test
     @DisplayName("Should request confirmation to postpone delivery date")
     void shouldRequestConfirmationToPostponeDeliveryDate () throws IOException {
@@ -30,7 +24,7 @@ public class CardDeliveryTest {
         dataFiller();
         String fullName = DataGenerator.randomFullName();
         $("[data-test-id=name] input").setValue(fullName);
-        String phoneNumber = faker.phoneNumber().phoneNumber();
+        String phoneNumber = DataGenerator.randomPhoneNumber();
         $("[data-test-id=phone] input").setValue(phoneNumber);
         $("[data-test-id=agreement]").click();
         $$("button").find(exactText("Запланировать")).click();

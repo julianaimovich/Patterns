@@ -1,4 +1,5 @@
 import com.github.javafaker.Faker;
+import com.github.javafaker.PhoneNumber;
 import org.apache.commons.io.FileUtils;
 import ru.netology.model.CardDeliveryData;
 import java.io.File;
@@ -8,17 +9,17 @@ import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 public class DataGenerator {
+
     private DataGenerator() {}
 
+    static Faker faker = new Faker(new Locale("ru"));
+
     public CardDeliveryData someInfo(String locale) throws IOException {
-
-        Faker faker = new Faker(new Locale("ru"));
-
         return new CardDeliveryData(
                 DataGenerator.randomCity(),
                 DataGenerator.dateCalculating(),
                 DataGenerator.randomFullName(),
-                faker.phoneNumber().phoneNumber());
+                DataGenerator.randomPhoneNumber());
     }
 
     public static String dateCalculating() {
@@ -41,12 +42,14 @@ public class DataGenerator {
     }
 
     static String randomFullName() {
-
-        Faker faker = new Faker(new Locale("ru"));
-
         String randomLastName = faker.name().lastName();
         String randomFirstName = faker.name().firstName();
         String generatedFullName = randomLastName + " " + randomFirstName;
         return generatedFullName;
+    }
+
+    public static String randomPhoneNumber() {
+        String randomPhone = faker.phoneNumber().phoneNumber();
+        return randomPhone;
     }
 }
