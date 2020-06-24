@@ -1,0 +1,331 @@
+{
+  "uid" : "bbb21c9201702e47",
+  "name" : "Should request confirmation to postpone delivery date",
+  "fullName" : "CardDeliveryTest.shouldRequestConfirmationToPostponeDeliveryDate",
+  "historyId" : "b02b1391a122b0974bbf32f0a7654c0d",
+  "time" : {
+    "start" : 1592977268813,
+    "stop" : 1592977281431,
+    "duration" : 12618
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(open) http://localhost:9999/",
+      "time" : {
+        "start" : 1592977268905,
+        "stop" : 1592977277090,
+        "duration" : 8185
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$([data-test-id=city] input) set value(Смоленск)",
+      "time" : {
+        "start" : 1592977277305,
+        "stop" : 1592977277783,
+        "duration" : 478
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$([data-test-id=date] input) send keys([, a])",
+      "time" : {
+        "start" : 1592977277856,
+        "stop" : 1592977277992,
+        "duration" : 136
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$([data-test-id=date] input) send keys()",
+      "time" : {
+        "start" : 1592977277993,
+        "stop" : 1592977278052,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$([data-test-id=date] input) set value(27.06.2020)",
+      "time" : {
+        "start" : 1592977278052,
+        "stop" : 1592977278320,
+        "duration" : 268
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$([data-test-id=name] input) set value(Фомин Виктория)",
+      "time" : {
+        "start" : 1592977278729,
+        "stop" : 1592977279043,
+        "duration" : 314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$([data-test-id=phone] input) set value(+7(913)399-16-23)",
+      "time" : {
+        "start" : 1592977279043,
+        "stop" : 1592977279299,
+        "duration" : 256
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$([data-test-id=agreement]) click()",
+      "time" : {
+        "start" : 1592977279299,
+        "stop" : 1592977279475,
+        "duration" : 176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(button.findBy(exact text 'Запланировать')) click()",
+      "time" : {
+        "start" : 1592977279479,
+        "stop" : 1592977279691,
+        "duration" : 212
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(with text: Успешно!) wait until([visible, 15000])",
+      "time" : {
+        "start" : 1592977279694,
+        "stop" : 1592977280170,
+        "duration" : 476
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$([data-test-id=date] input) send keys([, a])",
+      "time" : {
+        "start" : 1592977280171,
+        "stop" : 1592977280261,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$([data-test-id=date] input) send keys()",
+      "time" : {
+        "start" : 1592977280261,
+        "stop" : 1592977280310,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$([data-test-id=date] input) set value(03.07.2020)",
+      "time" : {
+        "start" : 1592977280310,
+        "stop" : 1592977280495,
+        "duration" : 185
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(button.findBy(exact text 'Запланировать')) click()",
+      "time" : {
+        "start" : 1592977280495,
+        "stop" : 1592977280640,
+        "duration" : 145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(with text: Необходимо подтверждение) should(visible)",
+      "time" : {
+        "start" : 1592977280640,
+        "stop" : 1592977281153,
+        "duration" : 513
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(button.findBy(exact text 'Перепланировать')) click()",
+      "time" : {
+        "start" : 1592977281153,
+        "stop" : 1592977281364,
+        "duration" : 211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(with text: Успешно!) wait until([visible, 15000])",
+      "time" : {
+        "start" : 1592977281365,
+        "stop" : 1592977281406,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 17,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Julia"
+  }, {
+    "name" : "thread",
+    "value" : "22400@Julia.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "CardDeliveryTest"
+  }, {
+    "name" : "testClass",
+    "value" : "CardDeliveryTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldRequestConfirmationToPostponeDeliveryDate"
+  }, {
+    "name" : "suite",
+    "value" : "CardDeliveryTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "425ae0ff7a616a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592976513696,
+        "stop" : 1592976526213,
+        "duration" : 12517
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bbb21c9201702e47.json",
+  "parameterValues" : [ ]
+}

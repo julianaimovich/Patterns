@@ -1,0 +1,11 @@
+[ {
+  "uid" : "bbb21c9201702e47",
+  "name" : "Should request confirmation to postpone delivery date",
+  "time" : {
+    "start" : 1592977268813,
+    "stop" : 1592977281431,
+    "duration" : 12618
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

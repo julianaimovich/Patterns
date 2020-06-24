@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jun 24 08:41:08 MSK 2020","Wed Jun 24 08:41:21 MSK 2020","12618","","CardDeliveryTest","","CardDeliveryTest","shouldRequestConfirmationToPostponeDeliveryDate","Should request confirmation to postpone delivery date",""

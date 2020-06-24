@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "CardDeliveryTest",
+    "children" : [ {
+      "name" : "Should request confirmation to postpone delivery date",
+      "uid" : "bbb21c9201702e47",
+      "parentUid" : "f04b0f1da9782f69150e21c3b193b18a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592977268813,
+        "stop" : 1592977281431,
+        "duration" : 12618
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f04b0f1da9782f69150e21c3b193b18a"
+  } ]
+}

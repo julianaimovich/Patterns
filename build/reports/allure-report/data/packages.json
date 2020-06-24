@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "CardDeliveryTest",
+    "children" : [ {
+      "name" : "shouldRequestConfirmationToPostponeDeliveryDate",
+      "uid" : "bbb21c9201702e47",
+      "parentUid" : "4d5e021d797ecc6ae2e50515998a7838",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592977268813,
+        "stop" : 1592977281431,
+        "duration" : 12618
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4d5e021d797ecc6ae2e50515998a7838"
+  } ]
+}

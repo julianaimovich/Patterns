@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Julia",
+    "children" : [ {
+      "name" : "4544@Julia.Test worker(12)",
+      "children" : [ {
+        "name" : "Should request confirmation to postpone delivery date",
+        "uid" : "425ae0ff7a616a9b",
+        "parentUid" : "6bec1715797f5de8ddaf7fb4fac11657",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592976513696,
+          "stop" : 1592976526213,
+          "duration" : 12517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6bec1715797f5de8ddaf7fb4fac11657"
+    }, {
+      "name" : "22400@Julia.Test worker(12)",
+      "children" : [ {
+        "name" : "Should request confirmation to postpone delivery date",
+        "uid" : "bbb21c9201702e47",
+        "parentUid" : "e407a499a96f60703c6171fed0b95948",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592977268813,
+          "stop" : 1592977281431,
+          "duration" : 12618
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e407a499a96f60703c6171fed0b95948"
+    } ],
+    "uid" : "d224ef2d4da25e9d8fd1f2f7073705b4"
+  } ]
+}
